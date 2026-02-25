@@ -108,6 +108,7 @@
       align-items: center;
       justify-content: space-between;
       flex-wrap: wrap;
+      position: relative; /* added for absolute menu */
     }
 
     /* ===== LOGO ===== */
@@ -163,6 +164,17 @@
 
     .nav-list a:hover::before {
       width: 100%;
+    }
+
+    /* ===== HAMBURGER MENU ===== */
+    .hamburger {
+      display: none;
+      background: transparent;
+      border: none;
+      font-size: 2rem;
+      color: #fff;
+      cursor: pointer;
+      z-index: 1001;
     }
 
     /* ===== HERO ===== */
@@ -678,6 +690,104 @@
         font-size: 2rem;
       }
     }
+
+    /* ===== NOVOS MEDIA QUERIES PARA MOBILE (até 350px) ===== */
+    @media (max-width: 768px) {
+      .hamburger {
+        display: block;
+      }
+
+      .nav-list {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: var(--glass-bg);
+        backdrop-filter: blur(15px);
+        padding: 2rem;
+        gap: 1.5rem;
+        border-bottom: 1px solid var(--primary);
+        z-index: 1000;
+      }
+
+      .nav-list.active {
+        display: flex;
+      }
+
+      .header-container {
+        flex-wrap: nowrap;
+      }
+
+      .logo {
+        font-size: 1.4rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .container {
+        padding: 0 1rem;
+      }
+
+      .hero h1 {
+        font-size: 2.5rem;
+      }
+
+      .hero-subtitle {
+        font-size: 1.2rem;
+        padding-left: 1rem;
+      }
+
+      .btn {
+        padding: 1rem 2rem;
+        font-size: 1rem;
+      }
+
+      .foto-placeholder {
+        max-width: 250px;
+      }
+
+      .section-title {
+        font-size: 2rem;
+      }
+
+      .whatsapp-button {
+        font-size: 1.2rem;
+        padding: 1rem 1.5rem;
+      }
+    }
+
+    @media (max-width: 350px) {
+      .hero h1 {
+        font-size: 2rem;
+      }
+      .hero-subtitle {
+        font-size: 1rem;
+      }
+      .logo {
+        font-size: 1.2rem;
+      }
+      .logo::after {
+        font-size: 0.6rem;
+        padding: 0.1rem 0.3rem;
+        top: -5px;
+      }
+      .whatsapp-float {
+        width: 50px;
+        height: 50px;
+        font-size: 2rem;
+        bottom: 1rem;
+        right: 1rem;
+      }
+      .back-to-top {
+        width: 40px;
+        height: 40px;
+        font-size: 1.2rem;
+        bottom: 1rem;
+        left: 1rem;
+      }
+    }
   </style>
 </head>
 <body>
@@ -691,6 +801,11 @@
       <!-- ===== LOGO: substitua a div abaixo pela sua imagem ===== -->
       <div class="logo">Mayki Hashimoto</div>
       <!-- <img src="caminho/para/sua-logo.png" alt="Mayki Hashimoto" style="height: 50px;"> -->
+
+      <!-- Botão hambúrguer para mobile -->
+      <button class="hamburger" aria-label="Menu">
+        <i class="fas fa-bars"></i>
+      </button>
       
       <nav class="nav">
         <ul class="nav-list">
@@ -955,7 +1070,7 @@
   </footer>
 
   <!-- Botões flutuantes -->
-  <a href="https://wa.me/5511999999999" class="whatsapp-float" target="_blank" aria-label="WhatsApp">
+  <a href="https://wa.me/5565996920735" class="whatsapp-float" target="_blank" aria-label="WhatsApp">
     <i class="fab fa-whatsapp"></i>
   </a>
   <a href="#" class="back-to-top" id="backToTop" aria-label="Voltar ao topo">
@@ -1061,6 +1176,30 @@
         if (target) target.scrollIntoView({ behavior: 'smooth' });
       });
     });
+
+    // Hamburger menu toggle
+    const hamburger = document.querySelector('.hamburger');
+    const navList = document.querySelector('.nav-list');
+
+    if (hamburger) {
+      hamburger.addEventListener('click', () => {
+        navList.classList.toggle('active');
+      });
+
+      // Close menu when a nav link is clicked
+      document.querySelectorAll('.nav-list a').forEach(link => {
+        link.addEventListener('click', () => {
+          navList.classList.remove('active');
+        });
+      });
+
+      // Close menu on resize if screen becomes larger than 768px
+      window.addEventListener('resize', () => {
+        if (window.innerWidth > 768 && navList.classList.contains('active')) {
+          navList.classList.remove('active');
+        }
+      });
+    }
   </script>
 </body>
 </html>
