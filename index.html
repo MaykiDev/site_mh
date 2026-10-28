@@ -1,351 +1,721 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mayki Hashimoto — Social Mídia Estratégico</title>
-  <meta name="description" content="Social Mídia Estratégico para marcas que querem crescer com direção, não com sorte. Estratégia, conteúdo e resultado por Mayki Hashimoto." />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Criação de Sites Profissionais em Mato Grosso | Mayki Hashimoto</title>
+<meta name="description" content="Criação de sites profissionais, landing pages e páginas de vendas em Mato Grosso. Sites rápidos, feitos para o celular, otimizados para o Google e pensados para gerar contato no WhatsApp.">
+<meta name="keywords" content="criação de sites, criação de sites Mato Grosso, criação de sites Cuiabá, landing page, site profissional, página de vendas, site institucional, Mayki Hashimoto">
+<meta name="author" content="Mayki Hashimoto">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="https://www.maykihashimoto.com.br/">
+<meta name="theme-color" content="#050c20">
+<meta name="geo.region" content="BR-MT">
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:site_name" content="Mayki Hashimoto">
+<meta property="og:title" content="Criação de Sites Profissionais em Mato Grosso | Mayki Hashimoto">
+<meta property="og:description" content="Criação de sites profissionais, landing pages e páginas de vendas em Mato Grosso. Sites rápidos, feitos para o celular, otimizados para o Google e pensados para gerar contato no WhatsApp.">
+<meta property="og:url" content="https://www.maykihashimoto.com.br/">
+<meta property="og:image" content="https://www.maykihashimoto.com.br/assets/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Mayki Hashimoto, criação de sites profissionais">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Criação de Sites Profissionais em Mato Grosso | Mayki Hashimoto">
+<meta name="twitter:description" content="Criação de sites profissionais, landing pages e páginas de vendas em Mato Grosso. Sites rápidos, feitos para o celular, otimizados para o Google e pensados para gerar contato no WhatsApp.">
+<meta name="twitter:image" content="https://www.maykihashimoto.com.br/assets/og-image.jpg">
+
+<link rel="icon" href="assets/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="css/style.css">
+<link rel="preload" as="image" href="assets/img/mayki-hashimoto.png" fetchpriority="high">
+
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "WebSite",
+   "@id": "https://www.maykihashimoto.com.br/#site",
+   "url": "https://www.maykihashimoto.com.br/",
+   "name": "Mayki Hashimoto",
+   "inLanguage": "pt-BR",
+   "publisher": {
+    "@id": "https://www.maykihashimoto.com.br/#negocio"
+   }
+  },
+  {
+   "@type": "Person",
+   "@id": "https://www.maykihashimoto.com.br/#mayki",
+   "name": "Mayki Hashimoto",
+   "jobTitle": "Criador de Sites",
+   "url": "https://www.maykihashimoto.com.br/",
+   "image": "https://www.maykihashimoto.com.br/assets/img/mayki-hashimoto.png",
+   "knowsAbout": [
+    "Criação de sites",
+    "Landing pages",
+    "SEO",
+    "UX",
+    "Copywriting",
+    "Design gráfico",
+    "Social media",
+    "Edição de vídeo",
+    "Fotografia"
+   ],
+   "worksFor": {
+    "@id": "https://www.maykihashimoto.com.br/#negocio"
+   }
+  },
+  {
+   "@type": "ProfessionalService",
+   "@id": "https://www.maykihashimoto.com.br/#negocio",
+   "name": "Mayki Hashimoto",
+   "description": "Criação de sites profissionais, landing pages e páginas de vendas, com copy, design, foto e vídeo feitos pela mesma equipe.",
+   "url": "https://www.maykihashimoto.com.br/",
+   "image": "https://www.maykihashimoto.com.br/assets/og-image.jpg",
+   "logo": "https://www.maykihashimoto.com.br/assets/icon-512.png",
+   "telephone": "+55 65 99692-0735",
+   "priceRange": "$$",
+   "address": {
+    "@type": "PostalAddress",
+    "addressRegion": "MT",
+    "addressCountry": "BR"
+   },
+   "areaServed": [
+    {
+     "@type": "State",
+     "name": "Mato Grosso"
+    },
+    {
+     "@type": "Country",
+     "name": "Brasil"
+    }
+   ],
+   "founder": {
+    "@id": "https://www.maykihashimoto.com.br/#mayki"
+   },
+   "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+55 65 99692-0735",
+    "contactType": "customer service",
+    "availableLanguage": "Portuguese"
+   },
+   "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Criação de sites",
+    "itemListElement": [
+     {
+      "@type": "Offer",
+      "itemOffered": {
+       "@type": "Service",
+       "name": "Landing page",
+       "description": "Uma página única, direta, com um só objetivo: fazer a pessoa chamar você.",
+       "url": "https://www.maykihashimoto.com.br/criacao-de-sites"
+      }
+     },
+     {
+      "@type": "Offer",
+      "itemOffered": {
+       "@type": "Service",
+       "name": "Site institucional",
+       "description": "Várias páginas para apresentar a empresa, os serviços e passar confiança.",
+       "url": "https://www.maykihashimoto.com.br/criacao-de-sites"
+      }
+     },
+     {
+      "@type": "Offer",
+      "itemOffered": {
+       "@type": "Service",
+       "name": "Página de vendas",
+       "description": "Texto e estrutura pensados para vender um produto, curso ou serviço específico.",
+       "url": "https://www.maykihashimoto.com.br/criacao-de-sites"
+      }
+     },
+     {
+      "@type": "Offer",
+      "itemOffered": {
+       "@type": "Service",
+       "name": "Redesign de site",
+       "description": "Seu site atual com cara nova, mais rápido e organizado para gerar contato.",
+       "url": "https://www.maykihashimoto.com.br/criacao-de-sites"
+      }
+     },
+     {
+      "@type": "Offer",
+      "itemOffered": {
+       "@type": "Service",
+       "name": "Social Mídia Estratégico",
+       "url": "https://www.maykihashimoto.com.br/social-media"
+      }
+     },
+     {
+      "@type": "Offer",
+      "itemOffered": {
+       "@type": "Service",
+       "name": "Copywriting",
+       "url": "https://www.maykihashimoto.com.br/copywriting"
+      }
+     },
+     {
+      "@type": "Offer",
+      "itemOffered": {
+       "@type": "Service",
+       "name": "Design Gráfico",
+       "url": "https://www.maykihashimoto.com.br/design-grafico"
+      }
+     },
+     {
+      "@type": "Offer",
+      "itemOffered": {
+       "@type": "Service",
+       "name": "Edição de Vídeo",
+       "url": "https://www.maykihashimoto.com.br/edicao-de-video"
+      }
+     },
+     {
+      "@type": "Offer",
+      "itemOffered": {
+       "@type": "Service",
+       "name": "Filmmaker e Fotografia",
+       "url": "https://www.maykihashimoto.com.br/filmmaker-fotografia"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Quanto custa um site?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Depende do tipo de site e da quantidade de páginas. Depois de uma conversa rápida sobre o seu negócio, eu envio um orçamento fechado, sem surpresas no meio do caminho."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Quanto tempo leva para o site ficar pronto?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Uma landing page costuma levar de 1 a 2 semanas. Sites institucionais com várias páginas levam de 3 a 5 semanas, dependendo do envio de conteúdo."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Preciso ter os textos e as fotos prontos?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Não. Eu escrevo os textos do site com base na nossa conversa. Se precisar de fotos ou vídeos profissionais, a captação também pode ser feita pela mesma equipe."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "O site vai aparecer no Google?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Sim. Todo site sai com SEO técnico configurado e é enviado para indexação. A posição nas buscas também depende de conteúdo e de tempo."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Domínio e hospedagem estão inclusos?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Eu cuido de toda a configuração: domínio, hospedagem e certificado de segurança. O domínio fica registrado no seu nome, então o site é sempre seu."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Consigo atualizar o site depois?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Combinamos o formato ideal: manutenção feita por mim ou uma estrutura que você mesmo consiga atualizar."
+     }
+    }
+   ]
+  }
+ ]
+}
+</script>
 </head>
-<body class="theme-dark">
+<body>
+<a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+<header class="site-header" data-header>
+  <div class="container header-inner">
+    <a class="brand" href="index.html" aria-label="Mayki Hashimoto, página inicial">
+      <img class="brand-mark" src="assets/img/logo-simbolo.png" alt="" width="72" height="120">
+      <span class="brand-name">Mayki Hashimoto</span>
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu" data-menu-toggle>
+      <span class="sr-only">Abrir menu</span><span class="menu-icon" aria-hidden="true"></span>
+    </button>
+    <nav class="site-nav" id="menu" aria-label="Principal" data-menu>
+      <ul class="nav-list">
+        <li><a href="#sites">Tipos de site</a></li>
+        <li><a href="#portfolio">Portfólio</a></li>
+        <li class="has-sub">
+          <button class="nav-sub-toggle" type="button" aria-expanded="false" data-sub-toggle>Serviços <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button>
+          <ul class="nav-sub">
+          <li><a href="criacao-de-sites.html">Criação de Sites</a></li>
+          <li><a href="social-media.html">Social Mídia Estratégico</a></li>
+          <li><a href="copywriting.html">Copywriting</a></li>
+          <li><a href="design-grafico.html">Design Gráfico</a></li>
+          <li><a href="edicao-de-video.html">Edição de Vídeo</a></li>
+          <li><a href="filmmaker-fotografia.html">Filmmaker e Fotografia</a></li>
+          </ul>
+        </li>
+        <li><a href="#processo">Processo</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#duvidas">Dúvidas</a></li>
+      </ul>
+      <a class="btn btn--primary nav-cta" href="https://wa.me/5565996920735?text=Ol%C3%A1%2C%20Mayki!%20Vim%20pelo%20site%20e%20quero%20um%20or%C3%A7amento%20de%20site." target="_blank" rel="noopener"><svg class="ico-wa" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg> Pedir orçamento</a>
+    </nav>
+  </div>
+</header>
+<main id="conteudo">
 
-  <!-- HEADER -->
-  <header class="site-header" id="top">
-    <div class="container header-inner">
-      <a href="#top" class="logo">
-        <!-- 
-          Para usar sua própria logo:
-          1. Descomente a tag <img> abaixo e coloque o link da imagem no 'src'
-          2. Apague ou comente as tags <span> com o texto "Mayki Hashimoto"
-        -->
-        <img src="../assent/2.png" alt="Logo" class="logo-img logo-for-dark">
-        <img src="../assent/1.png" alt="Logo" class="logo-img logo-for-light">
-        <!-- <span class="logo-mark">M</span> -->
-        <span class="logo-text">Mayki<span class="logo-accent">Hashimoto</span></span>
-      </a>
+<section class="hero" aria-labelledby="hero-title">
+  <div class="container hero-grid">
+    <p class="hero-status"><span class="dot" aria-hidden="true"></span>Agenda aberta para novos sites</p>
 
-      <nav class="nav" id="nav">
-        <ul class="nav-list">
-          <li><a href="#sobre" class="nav-link">Sobre</a></li>
-          <li><a href="#servico-principal" class="nav-link">Estratégia</a></li>
-          <li><a href="#servicos" class="nav-link">Serviços</a></li>
-          <!-- <li><a href="#portfolio" class="nav-link">Portfólio</a></li> -->
-          <li><a href="#duvidas" class="nav-link">Dúvidas</a></li>
-          <li><a href="#contato" class="nav-link nav-cta">Contato</a></li>
-        </ul>
-      </nav>
+    <h1 class="hero-title" id="hero-title" data-fit>
+      <span class="line">Mayki </span><span class="line line--last">Hashimoto</span>
+      <span class="sr-only">, criação de sites profissionais</span>
+    </h1>
 
-      <div class="header-actions">
-        <button class="theme-toggle" id="themeToggle" aria-label="Alternar tema claro e escuro">
-          <span class="theme-icon theme-icon-moon" aria-hidden="true">
-            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
-          </span>
-          <span class="theme-icon theme-icon-sun" aria-hidden="true">
-            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
-          </span>
-        </button>
+    <figure class="hero-photo">
+      <img src="assets/img/mayki-hashimoto.png" alt="Retrato de Mayki Hashimoto, criador de sites" width="452" height="709" fetchpriority="high" decoding="async">
+      <figcaption>Sites feitos para gerar contato</figcaption>
+    </figure>
 
-        <button class="hamburger" id="hamburger" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav">
-          <span class="hamburger-line"></span>
-          <span class="hamburger-line"></span>
-          <span class="hamburger-line"></span>
-        </button>
+    <div class="hero-copy">
+      <p class="hero-role">Criação de sites profissionais</p>
+      <p class="hero-headline">Um site que trabalha pelo seu negócio, 24 horas por dia.</p>
+      <p class="hero-text">Crio sites e landing pages rápidos, bonitos no celular e fáceis de encontrar no Google. Cada página é pensada para levar o visitante até um único lugar: o seu WhatsApp.</p>
+      <div class="hero-actions">
+        <a class="btn btn--primary" href="https://wa.me/5565996920735?text=Ol%C3%A1%2C%20Mayki!%20Vim%20pelo%20site%20e%20quero%20um%20or%C3%A7amento%20de%20site." target="_blank" rel="noopener"><svg class="ico-wa" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg> Quero meu site</a>
+        <a class="btn btn--ghost" href="#sites">Ver tipos de site</a>
       </div>
     </div>
-  </header>
 
-  <!-- HERO -->
-  <section class="hero" id="hero">
-    <div class="hero-glow" aria-hidden="true"></div>
-    <div class="container hero-inner">
-      <div class="hero-content">
-        <span class="eyebrow">Social Mídia Estratégico</span>
-        <h1 class="hero-title">
-          Sua marca não precisa de <span class="grad-text">mais posts</span>.
-          Precisa de <span class="grad-text">direção</span>.
-        </h1>
-        <p class="hero-sub">
-          Transformo redes sociais em máquinas de posicionamento e vendas.
-          Estratégia primeiro, conteúdo depois, para você crescer com método, não com sorte.
-        </p>
-        <div class="hero-actions">
-          <a href="https://wa.me/5565996920735?text=Ol%C3%A1%20Mayki%2C%20quero%20falar%20sobre%20social%20m%C3%ADdia%20estrat%C3%A9gico." class="btn btn-primary" target="_blank" rel="noopener">Quero uma estratégia</a>
-          <a href="#servico-principal" class="btn btn-ghost">Como funciona</a>
-        </div>
-        <ul class="hero-metrics">
-          <li><strong>2 anos</strong><span>de mercado</span></li>
-          <li><strong>5 áreas</strong><span>sob um só time</span></li>
-        </ul>
-      </div>
+    <ul class="hero-facts" aria-label="Destaques">
+      <li><span class="fact-value">100%</span><span class="fact-label">pensado para o celular</span></li>
+      <li><span class="fact-value">SEO</span><span class="fact-label">configurado desde o primeiro dia</span></li>
+      <li><span class="fact-value">1 contato</span><span class="fact-label">do briefing ao site no ar</span></li>
+    </ul>
+  </div>
+</section>
 
-      <div class="hero-media">
-        <div class="hero-photo">
-          <img src="../assent/DSC06612.jpg" alt="Foto profissional de Mayki Hashimoto" />
-          <div class="hero-badge">
-            <span class="pulse-dot" aria-hidden="true"></span>
-            Disponível para novos projetos
-          </div>
-        </div>
-      </div>
+<div class="service-strip" aria-label="O que eu crio">
+  <div class="container"><ul><li><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2c.6 4.8 2.6 7.4 8 8-5.4.6-7.4 3.2-8 8-.6-4.8-2.6-7.4-8-8 5.4-.6 7.4-3.2 8-8Z"/></svg>Landing pages</li><li><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2c.6 4.8 2.6 7.4 8 8-5.4.6-7.4 3.2-8 8-.6-4.8-2.6-7.4-8-8 5.4-.6 7.4-3.2 8-8Z"/></svg>Sites institucionais</li><li><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2c.6 4.8 2.6 7.4 8 8-5.4.6-7.4 3.2-8 8-.6-4.8-2.6-7.4-8-8 5.4-.6 7.4-3.2 8-8Z"/></svg>Páginas de vendas</li><li><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2c.6 4.8 2.6 7.4 8 8-5.4.6-7.4 3.2-8 8-.6-4.8-2.6-7.4-8-8 5.4-.6 7.4-3.2 8-8Z"/></svg>Redesign</li><li><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2c.6 4.8 2.6 7.4 8 8-5.4.6-7.4 3.2-8 8-.6-4.8-2.6-7.4-8-8 5.4-.6 7.4-3.2 8-8Z"/></svg>SEO</li><li><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2c.6 4.8 2.6 7.4 8 8-5.4.6-7.4 3.2-8 8-.6-4.8-2.6-7.4-8-8 5.4-.6 7.4-3.2 8-8Z"/></svg>Integração com WhatsApp</li></ul></div>
+</div>
+
+<section class="section" id="por-que" aria-labelledby="por-que-title">
+  <div class="container about-grid">
+    <h2 class="about-statement" id="por-que-title">Antes de te chamar, o seu cliente pesquisa. <em>O que ele encontra decide se ele fica.</em></h2>
+    <div class="about-body">
+      <p>Perfil no Instagram ajuda, mas não substitui um site. É no site que a pessoa confirma que a sua empresa é séria, entende o que você oferece e decide entrar em contato.</p>
+      <p>Um site lento, confuso ou que quebra no celular faz o cliente voltar para a busca e clicar no concorrente. Um site bem feito faz o contrário.</p>
+      <ul class="principles">
+        <li><strong>Rápido</strong><span>Abre em poucos segundos, até no 4G.</span></li>
+        <li><strong>Claro</strong><span>Explica o que você faz logo na primeira tela.</span></li>
+        <li><strong>Encontrável</strong><span>Estruturado para aparecer nas buscas do Google.</span></li>
+      </ul>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- SOBRE -->
-  <section class="section about" id="sobre">
-    <div class="container about-inner">
-      <div class="section-head">
-        <span class="section-index">01</span>
-        <h2 class="section-title">Quem está por trás da estratégia</h2>
-      </div>
-      <div class="about-body">
-        <p class="about-lead">
-          Sou Mayki Hashimoto, estrategista de social mídia focado em resultado:
-          crescimento, autoridade e vendas.
-        </p>
-        <p>
-          Meu trabalho não termina no "post bonito", começa no diagnóstico, passa pelo posicionamento e se prova no resultado.
-        </p>
-        <p>
-          Além da estratégia, comando uma estrutura completa de produção: sites, vídeo, fotografia e design. Assim sua comunicação tem coerência do começo ao fim, sem depender de cinco fornecedores diferentes.
-        </p>
-        <ul class="about-pillars">
-          <li><span>Estratégia</span> antes de estética</li>
-          <li><span>Dados</span> guiando decisão</li>
-          <li><span>Consistência</span> que gera confiança</li>
+<section class="section section--alt" aria-labelledby="compare-title">
+  <div class="container">
+    <div class="section-head">
+      <h2 class="section-title" id="compare-title">Ter um site é fácil. <span class="soft">Ter um site que gera cliente, não.</span></h2>
+      <p class="section-lead">A diferença não está só no visual. Está na estrutura, no texto e em cada detalhe que leva a pessoa até o botão de contato.</p>
+    </div>
+    <div class="compare">
+      <div class="compare-col compare-col--weak">
+        <h3>Site que só existe</h3>
+        <ul>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M7 7l10 10M17 7 7 17"/></svg>Modelo pronto, igual ao de todo mundo</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M7 7l10 10M17 7 7 17"/></svg>Lento e quebrado no celular</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M7 7l10 10M17 7 7 17"/></svg>Ninguém encontra no Google</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M7 7l10 10M17 7 7 17"/></svg>Visita entra e sai sem falar com você</li>
         </ul>
       </div>
-    </div>
-  </section>
-
-  <!-- SERVIÇO PRINCIPAL -->
-  <section class="section main-service" id="servico-principal">
-    <div class="container">
-      <div class="section-head">
-        <span class="section-index">02</span>
-        <h2 class="section-title">Social Mídia <span class="grad-text">Estratégico</span></h2>
+      <div class="compare-col compare-col--strong">
+        <h3>Site que gera contato</h3>
+        <ul>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>Design exclusivo para a sua marca</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>Rápido em qualquer tela</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>SEO técnico desde o primeiro dia</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>Caminho claro até o seu WhatsApp</li>
+        </ul>
       </div>
+    </div>
+  </div>
+</section>
 
-      <div class="main-service-grid">
-        <div class="ms-lead">
-          <p class="ms-statement">
-            Postar é tática. <br />O que muda o jogo é <strong>estratégia</strong>.
-          </p>
-          <p class="ms-text">
-            A maioria das marcas publica sem saber por quê. Eu construo o caminho inteiro:
-            para quem falar, o que dizer, quando e com qual objetivo. Cada conteúdo tem função
-            dentro de um funil pensado para atrair, nutrir e converter.
-          </p>
-          <a href="https://wa.me/5565996920735?text=Quero%20o%20servi%C3%A7o%20de%20Social%20M%C3%ADdia%20Estrat%C3%A9gico." class="btn btn-primary" target="_blank" rel="noopener">Começar minha estratégia</a>
+<section class="section" id="sites" aria-labelledby="sites-title">
+  <div class="container">
+    <div class="section-head">
+      <h2 class="section-title" id="sites-title">Qual site o seu negócio precisa?</h2>
+      <p class="section-lead">Quatro formatos para objetivos diferentes. Se estiver em dúvida, a gente descobre juntos na primeira conversa.</p>
+    </div>
+    <div class="offers">
+      <article class="offer offer--featured">
+        <div class="offer-top"><span class="offer-num">01</span><span class="offer-badge">A mais rápida de lançar</span></div>
+        <h3>Landing page</h3>
+        <p>Uma página única, direta, com um só objetivo: fazer a pessoa chamar você.</p>
+        <p class="offer-for"><strong>Ideal para:</strong> Quem anuncia no Instagram ou no Google e quer aproveitar melhor cada clique.</p>
+        <ul class="offer-list">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>Uma página, foco total na conversão</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>Botão de WhatsApp e formulário</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>Pixel da Meta e Google Analytics</li>
+        </ul>
+        <a class="offer-link" href="https://wa.me/5565996920735?text=Ol%C3%A1%2C%20Mayki!%20Vim%20pelo%20site%20e%20quero%20um%20or%C3%A7amento%20de%20landing%20page." target="_blank" rel="noopener">Pedir orçamento <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </article>
+      <article class="offer">
+        <div class="offer-top"><span class="offer-num">02</span></div>
+        <h3>Site institucional</h3>
+        <p>Várias páginas para apresentar a empresa, os serviços e passar confiança.</p>
+        <p class="offer-for"><strong>Ideal para:</strong> Empresas que precisam ser encontradas no Google e transmitir credibilidade.</p>
+        <ul class="offer-list">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>Páginas de serviços e sobre</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>SEO para buscas da sua região</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>Integração com redes sociais</li>
+        </ul>
+        <a class="offer-link" href="https://wa.me/5565996920735?text=Ol%C3%A1%2C%20Mayki!%20Vim%20pelo%20site%20e%20quero%20um%20or%C3%A7amento%20de%20site%20institucional." target="_blank" rel="noopener">Pedir orçamento <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </article>
+      <article class="offer">
+        <div class="offer-top"><span class="offer-num">03</span></div>
+        <h3>Página de vendas</h3>
+        <p>Texto e estrutura pensados para vender um produto, curso ou serviço específico.</p>
+        <p class="offer-for"><strong>Ideal para:</strong> Lançamentos, infoprodutos e ofertas com preço definido.</p>
+        <ul class="offer-list">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>Copy persuasiva inclusa</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>Provas, garantia e perguntas frequentes</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>Integração com checkout</li>
+        </ul>
+        <a class="offer-link" href="https://wa.me/5565996920735?text=Ol%C3%A1%2C%20Mayki!%20Vim%20pelo%20site%20e%20quero%20um%20or%C3%A7amento%20de%20p%C3%A1gina%20de%20vendas." target="_blank" rel="noopener">Pedir orçamento <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </article>
+      <article class="offer">
+        <div class="offer-top"><span class="offer-num">04</span></div>
+        <h3>Redesign de site</h3>
+        <p>Seu site atual com cara nova, mais rápido e organizado para gerar contato.</p>
+        <p class="offer-for"><strong>Ideal para:</strong> Quem já tem site, mas ele está lento, confuso ou ruim no celular.</p>
+        <ul class="offer-list">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>Diagnóstico do site atual</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>Nova estrutura e novo visual</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>Migração sem perder o Google</li>
+        </ul>
+        <a class="offer-link" href="https://wa.me/5565996920735?text=Ol%C3%A1%2C%20Mayki!%20Vim%20pelo%20site%20e%20quero%20um%20or%C3%A7amento%20de%20redesign%20de%20site." target="_blank" rel="noopener">Pedir orçamento <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section section--alt" id="portfolio" aria-labelledby="portfolio-title">
+  <div class="container">
+    <div class="section-head">
+      <h2 class="section-title" id="portfolio-title">Portfólio</h2>
+      <p class="section-lead">Alguns sites que já coloquei no ar. Cada tela mostra a página rolando de cima a baixo, como se você estivesse navegando nela.</p>
+    </div>
+
+    <!--
+      COMO ADICIONAR UM SITE AO PORTFÓLIO
+      1. Copie um bloco <article class="pf-item"> ... </article> inteiro e cole abaixo do último.
+         Cole o mesmo bloco também no portfólio da página criacao-de-sites.html.
+      2. Troque: o link (href), o endereço que aparece na barra (pf-url), o nome, o tipo e o segmento.
+      3. Escolha como a tela aparece:
+         - IMAGEM (recomendado): salve um print da página inteira em assets/img/portfolio/
+           (largura de 800 px, o comprimento que quiser) e use <img src="assets/img/portfolio/arquivo.jpg">.
+           A imagem rola sozinha de cima a baixo ao passar o mouse.
+         - AO VIVO: troque a <img> por
+           <iframe src="https://endereco-do-site.com.br" title="Prévia do site" loading="lazy" tabindex="-1"></iframe>
+           e adicione a classe pf-screen--live na div pf-screen. Mostra o site real, mas alguns sites
+           bloqueiam aparecer dentro de outro site; nesse caso use a imagem.
+    -->
+    <div class="pf-grid">
+
+      <article class="pf-item">
+        <a class="pf-window" href="https://ifctcontabilidade.com.br/" target="_blank" rel="noopener" aria-label="Abrir o site IFCT Contabilidade em nova aba">
+          <div class="pf-bar" aria-hidden="true"><i></i><i></i><i></i><span class="pf-url">ifctcontabilidade.com.br</span></div>
+          <div class="pf-screen">
+            <img src="assets/img/portfolio/ifct.jpg" alt="Página inicial do site IFCT Contabilidade" width="800" height="3611" loading="lazy" decoding="async">
+          </div>
+        </a>
+        <div class="pf-info">
+          <div>
+            <h3>IFCT Contabilidade</h3>
+            <p>Site institucional · Contabilidade especialista em Lucro Real</p>
+          </div>
+          <a class="pf-link" href="https://ifctcontabilidade.com.br/" target="_blank" rel="noopener">Visitar site <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></a>
         </div>
+      </article>
 
-        <div class="ms-compare">
-          <div class="compare-col compare-old">
-            <h3>Só postar</h3>
-            <ul>
-              <li>Conteúdo sem objetivo</li>
-              <li>Métricas de vaidade</li>
-              <li>Depende de sorte</li>
-              <li>Sem previsibilidade</li>
-            </ul>
+      <article class="pf-item">
+        <a class="pf-window" href="https://sportz.com.br/" target="_blank" rel="noopener" aria-label="Abrir o site Sportz em nova aba">
+          <div class="pf-bar" aria-hidden="true"><i></i><i></i><i></i><span class="pf-url">sportz.com.br</span></div>
+          <div class="pf-screen">
+            <img src="assets/img/portfolio/sportz.jpg" alt="Página inicial do site Sportz" width="800" height="3611" loading="lazy" decoding="async">
           </div>
-          <div class="compare-col compare-new">
-            <h3>Estratégia comigo</h3>
-            <ul>
-              <li>Cada post com função no funil</li>
-              <li>Métricas que viram venda</li>
-              <li>Plano claro e mensurável</li>
-              <li>Crescimento com método</li>
-            </ul>
+        </a>
+        <div class="pf-info">
+          <div>
+            <h3>Sportz</h3>
+            <p>Site institucional · Viagens esportivas para torneios internacionais</p>
+          </div>
+          <a class="pf-link" href="https://sportz.com.br/" target="_blank" rel="noopener">Visitar site <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></a>
+        </div>
+      </article>
+
+      <article class="pf-item">
+        <a class="pf-window" href="https://thiagocavenaghi.com.br/" target="_blank" rel="noopener" aria-label="Abrir o site Thiago Cavenaghi em nova aba">
+          <div class="pf-bar" aria-hidden="true"><i></i><i></i><i></i><span class="pf-url">thiagocavenaghi.com.br</span></div>
+          <div class="pf-screen">
+            <img src="assets/img/portfolio/thiagocavenaghi.jpg" alt="Página inicial do site Thiago Cavenaghi" width="800" height="3526" loading="lazy" decoding="async">
+          </div>
+        </a>
+        <div class="pf-info">
+          <div>
+            <h3>Thiago Cavenaghi</h3>
+            <p>Site pessoal · Consultoria, cursos e treinamentos contábeis</p>
+          </div>
+          <a class="pf-link" href="https://thiagocavenaghi.com.br/" target="_blank" rel="noopener">Visitar site <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></a>
+        </div>
+      </article>
+
+      <article class="pf-item">
+        <a class="pf-window" href="https://2dmadeirasdobrasil.com.br/" target="_blank" rel="noopener" aria-label="Abrir o site 2D Madeiras do Brasil em nova aba">
+          <div class="pf-bar" aria-hidden="true"><i></i><i></i><i></i><span class="pf-url">2dmadeirasdobrasil.com.br</span></div>
+          <div class="pf-screen">
+            <img src="assets/img/portfolio/2dmadeiras.jpg" alt="Página inicial do site 2D Madeiras do Brasil" width="800" height="3611" loading="lazy" decoding="async">
+          </div>
+        </a>
+        <div class="pf-info">
+          <div>
+            <h3>2D Madeiras do Brasil</h3>
+            <p>Site institucional · Madeira nativa de manejo sustentável</p>
+          </div>
+          <a class="pf-link" href="https://2dmadeirasdobrasil.com.br/" target="_blank" rel="noopener">Visitar site <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></a>
+        </div>
+      </article>
+
+      <article class="pf-item">
+        <a class="pf-window" href="https://www.maykihashimoto.com.br/" target="_blank" rel="noopener" aria-label="Abrir o site Mayki Hashimoto em nova aba">
+          <div class="pf-bar" aria-hidden="true"><i></i><i></i><i></i><span class="pf-url">maykihashimoto.com.br</span></div>
+          <div class="pf-screen">
+            <img src="assets/img/portfolio/maykihashimoto.jpg" alt="Página inicial do site Mayki Hashimoto" width="800" height="2444" loading="lazy" decoding="async">
+          </div>
+        </a>
+        <div class="pf-info">
+          <div>
+            <h3>Mayki Hashimoto</h3>
+            <p>Site institucional · Marketing e criação de sites</p>
+          </div>
+          <a class="pf-link" href="https://www.maykihashimoto.com.br/" target="_blank" rel="noopener">Visitar site <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></a>
+        </div>
+      </article>
+
+      <article class="pf-item pf-item--cta">
+        <a class="pf-window" href="https://wa.me/5565996920735?text=Ol%C3%A1%2C%20Mayki!%20Vi%20o%20seu%20portf%C3%B3lio%20e%20quero%20um%20site%20assim." target="_blank" rel="noopener">
+          <div class="pf-bar" aria-hidden="true"><i></i><i></i><i></i><span class="pf-url">seunegocio.com.br</span></div>
+          <div class="pf-screen pf-screen--empty">
+            <span class="pf-empty-title">O próximo pode ser o seu.</span>
+            <span class="btn btn--primary"><svg class="ico-wa" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg> Quero um site assim</span>
+          </div>
+        </a>
+        <div class="pf-info">
+          <div>
+            <h3>Seu negócio aqui</h3>
+            <p>Landing page, site institucional ou página de vendas</p>
           </div>
         </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<section class="section" id="incluso" aria-labelledby="incluso-title">
+  <div class="container split">
+    <div>
+      <h2 class="section-title" id="incluso-title">Tudo incluso, do rascunho ao site no ar.</h2>
+      <p class="section-lead">Você não precisa contratar programador, designer e redator separados. Eu cuido de tudo e entrego o site funcionando no seu domínio.</p>
+      <a class="btn btn--ghost split-cta" href="criacao-de-sites.html">Ver detalhes do serviço</a>
+    </div>
+    <ul class="deliverables">
+      <li><strong><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>Estrutura e textos</strong><span>Ordem das seções e textos escritos para quem vai visitar.</span></li>
+      <li><strong><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>Design exclusivo</strong><span>Visual próprio para a sua marca, sem cara de modelo pronto.</span></li>
+      <li><strong><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>Mobile first</strong><span>Pensado primeiro para o celular, onde está a maior parte do seu público.</span></li>
+      <li><strong><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>SEO técnico</strong><span>Títulos, descrições, dados estruturados e velocidade para aparecer no Google.</span></li>
+      <li><strong><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>Integrações</strong><span>WhatsApp, formulários, Google Analytics e Pixel da Meta.</span></li>
+      <li><strong><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>Publicação</strong><span>Domínio, hospedagem e certificado de segurança configurados.</span></li>
+    </ul>
+  </div>
+</section>
+
+<section class="section section--alt" id="processo" aria-labelledby="processo-title">
+  <div class="container">
+    <div class="section-head">
+      <h2 class="section-title" id="processo-title">Como o seu site sai do papel</h2>
+      <p class="section-lead">Quatro etapas, com você aprovando cada uma antes de seguir para a próxima.</p>
+    </div>
+    <ol class="steps">
+      <li class="step"><h3>Briefing</h3><p>Uma conversa para entender o seu negócio, o seu público e o objetivo principal do site.</p></li>
+      <li class="step"><h3>Estrutura e textos</h3><p>Defino as seções e escrevo os textos de cada parte. Você aprova antes do design.</p></li>
+      <li class="step"><h3>Design</h3><p>Layout para celular e computador, com a identidade da sua marca e rodada de ajustes.</p></li>
+      <li class="step"><h3>Desenvolvimento e publicação</h3><p>Código, testes, SEO e o site publicado no seu domínio, pronto para receber visitas.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section class="section" id="sobre" aria-labelledby="sobre-title">
+  <div class="container about-grid">
+    <h2 class="about-statement" id="sobre-title">Quem faz o seu site também entende de <em>marketing, texto e imagem.</em></h2>
+    <div class="about-body">
+      <p>Sou Mayki Hashimoto, de Mato Grosso. Crio sites para empresas e profissionais que querem ser levados a sério na internet e receber mais contatos.</p>
+      <p>A diferença é que eu não penso o site sozinho. Venho do marketing e tenho uma estrutura com copywriting, design, fotografia e vídeo. Por isso o seu site sai com texto que convence, imagens de qualidade e alinhado com o que você comunica nas redes.</p>
+      <ul class="principles">
+        <li><strong>Atendimento direto</strong><span>Você fala comigo do começo ao fim, sem intermediários.</span></li>
+        <li><strong>Prazo combinado</strong><span>Cronograma claro desde o primeiro dia.</span></li>
+        <li><strong>O site é seu</strong><span>Domínio e acessos ficam no seu nome.</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section section--alt" id="servicos" aria-labelledby="servicos-title">
+  <div class="container">
+    <div class="section-head">
+      <h2 class="section-title" id="servicos-title">Além do site</h2>
+      <p class="section-lead">Serviços que complementam o seu site e podem ser contratados juntos ou separados.</p>
+    </div>
+    <div class="related related--extras">
+      <a href="social-media.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg><span>Social Mídia Estratégico<small>Para levar gente das redes até o seu site.</small></span></a>
+      <a href="copywriting.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg><span>Copywriting<small>Textos que fazem a visita virar contato.</small></span></a>
+      <a href="design-grafico.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg><span>Design Gráfico<small>Identidade visual para o site e para as redes.</small></span></a>
+      <a href="edicao-de-video.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg><span>Edição de Vídeo<small>Vídeos para a página e para os anúncios.</small></span></a>
+      <a href="filmmaker-fotografia.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg><span>Filmmaker e Fotografia<small>Fotos e vídeos profissionais para o site.</small></span></a>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="duvidas" aria-labelledby="duvidas-title">
+  <div class="container faq-layout">
+    <div>
+      <h2 class="section-title" id="duvidas-title">Dúvidas sobre o seu site</h2>
+      <p class="section-lead">O que costumam me perguntar antes de começarmos.</p>
+    </div>
+    <div class="faq">
+      <details open>
+        <summary>Quanto custa um site?<span class="plus" aria-hidden="true"></span></summary>
+        <p class="answer">Depende do tipo de site e da quantidade de páginas. Depois de uma conversa rápida sobre o seu negócio, eu envio um orçamento fechado, sem surpresas no meio do caminho.</p>
+      </details>
+      <details>
+        <summary>Quanto tempo leva para o site ficar pronto?<span class="plus" aria-hidden="true"></span></summary>
+        <p class="answer">Uma landing page costuma levar de 1 a 2 semanas. Sites institucionais com várias páginas levam de 3 a 5 semanas, dependendo do envio de conteúdo.</p>
+      </details>
+      <details>
+        <summary>Preciso ter os textos e as fotos prontos?<span class="plus" aria-hidden="true"></span></summary>
+        <p class="answer">Não. Eu escrevo os textos do site com base na nossa conversa. Se precisar de fotos ou vídeos profissionais, a captação também pode ser feita pela mesma equipe.</p>
+      </details>
+      <details>
+        <summary>O site vai aparecer no Google?<span class="plus" aria-hidden="true"></span></summary>
+        <p class="answer">Sim. Todo site sai com SEO técnico configurado e é enviado para indexação. A posição nas buscas também depende de conteúdo e de tempo.</p>
+      </details>
+      <details>
+        <summary>Domínio e hospedagem estão inclusos?<span class="plus" aria-hidden="true"></span></summary>
+        <p class="answer">Eu cuido de toda a configuração: domínio, hospedagem e certificado de segurança. O domínio fica registrado no seu nome, então o site é sempre seu.</p>
+      </details>
+      <details>
+        <summary>Consigo atualizar o site depois?<span class="plus" aria-hidden="true"></span></summary>
+        <p class="answer">Combinamos o formato ideal: manutenção feita por mim ou uma estrutura que você mesmo consiga atualizar.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<section class="section section--alt" id="contato" aria-labelledby="contato-title">
+  <div class="container contact-grid">
+    <div>
+      <h2 class="section-title" id="contato-title">Vamos colocar o seu site no ar?</h2>
+      <p class="section-lead">Conte um pouco sobre o seu negócio. Eu respondo pessoalmente com os próximos passos e o orçamento.</p>
+      <div class="contact-direct">
+        <a href="https://wa.me/5565996920735?text=Ol%C3%A1%2C%20Mayki!%20Vim%20pelo%20site." target="_blank" rel="noopener"><span class="ico"><svg class="ico-wa" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg></span><span>(65) 99692-0735<small>WhatsApp, resposta no mesmo dia útil</small></span></a>
+        <a href="https://www.instagram.com/" data-instagram target="_blank" rel="noopener"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="0.9" fill="currentColor" stroke="none"/></svg></span><span>Instagram<small>Bastidores e projetos</small></span></a>
+        <a href="#contato" tabindex="-1" aria-hidden="true" style="pointer-events:none"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5"/></svg></span><span>Mato Grosso<small>Atendimento presencial e online para todo o Brasil</small></span></a>
       </div>
     </div>
-  </section>
-
-  <!-- DEMAIS SERVIÇOS -->
-  <section class="section services" id="servicos">
-    <div class="container">
-      <div class="section-head">
-        <span class="section-index">03</span>
-        <h2 class="section-title">Estrutura completa, um só time</h2>
-        <p class="section-desc">Tudo que sua marca precisa para comunicar com qualidade, sob a mesma direção.</p>
-      </div>
-
-      <div class="services-grid">
-        <article class="service-card">
-          <div class="service-num">S1</div>
-          <h3>Criação de Sites</h3>
-          <p>Sites rápidos, responsivos e feitos para converter e não só para existir.</p>
-        </article>
-        <article class="service-card">
-          <div class="service-num">S2</div>
-          <h3>Captação e Edição de Vídeo</h3>
-          <p>Do roteiro ao corte final: vídeos que prendem atenção e comunicam com clareza.</p>
-        </article>
-        <article class="service-card">
-          <div class="service-num">S3</div>
-          <h3>Fotografia</h3>
-          <p>Imagens profissionais que valorizam sua marca, produto e presença.</p>
-        </article>
-        <article class="service-card">
-          <div class="service-num">S4</div>
-          <h3>Design Gráfico</h3>
-          <p>Artes corporativas com identidade forte e consistência visual em todo canal.</p>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- PORTFÓLIO -->
-  <!-- <section class="section portfolio" id="portfolio">
-    <div class="container">
-      <div class="section-head">
-        <span class="section-index">04</span>
-        <h2 class="section-title">Casos de sucesso</h2>
-        <p class="section-desc">Uma amostra de projetos entregues em diferentes segmentos.</p>
-      </div>
-
-      <div class="portfolio-grid">
-        <figure class="portfolio-item">
-          <img src="https://placehold.co/600x600/0a0e1a/2f8bff?text=Projeto+01" alt="Projeto de branding e social mídia" />
-          <figcaption><strong>Rebranding digital</strong><span>Social Mídia · Design</span></figcaption>
-        </figure>
-        <figure class="portfolio-item">
-          <img src="https://placehold.co/600x600/101828/3d9bff?text=Projeto+02" alt="Projeto de campanha em vídeo" />
-          <figcaption><strong>Campanha em vídeo</strong><span>Captação · Edição</span></figcaption>
-        </figure>
-        <figure class="portfolio-item">
-          <img src="https://placehold.co/600x600/0a0e1a/2f8bff?text=Projeto+03" alt="Projeto de site institucional" />
-          <figcaption><strong>Site institucional</strong><span>Web · UX</span></figcaption>
-        </figure>
-        <figure class="portfolio-item">
-          <img src="https://placehold.co/600x600/101828/3d9bff?text=Projeto+04" alt="Ensaio fotográfico corporativo" />
-          <figcaption><strong>Ensaio corporativo</strong><span>Fotografia</span></figcaption>
-        </figure>
-        <figure class="portfolio-item">
-          <img src="https://placehold.co/600x600/0a0e1a/2f8bff?text=Projeto+05" alt="Estratégia de conteúdo" />
-          <figcaption><strong>Plano de conteúdo</strong><span>Estratégia</span></figcaption>
-        </figure>
-        <figure class="portfolio-item">
-          <img src="https://placehold.co/600x600/101828/3d9bff?text=Projeto+06" alt="Identidade visual corporativa" />
-          <figcaption><strong>Identidade visual</strong><span>Design</span></figcaption>
-        </figure>
-      </div>
-    </div>
-  </section> -->
-
-  <!-- DÚVIDAS FREQUENTES -->
-  <section class="section faq" id="duvidas">
-    <div class="container">
-      <div class="section-head">
-        <span class="section-index">04</span>
-        <h2 class="section-title">Dúvidas Frequentes</h2>
-        <p class="section-desc">Tudo o que você precisa saber antes de começarmos.</p>
-      </div>
-
-      <div class="faq-list">
-        <details class="faq-item" name="faq-accordion">
-          <summary class="faq-question">Como funciona o serviço de Social Mídia Estratégico?</summary>
-          <div class="faq-answer">
-            <p>Nosso serviço começa com um diagnóstico aprofundado da sua marca. A partir disso, criamos um posicionamento e um plano de conteúdo focado em atrair, nutrir e converter seus seguidores em clientes.</p>
-          </div>
-        </details>
-
-        <details class="faq-item" name="faq-accordion">
-          <summary class="faq-question">Qual é o tempo mínimo de contrato?</summary>
-          <div class="faq-answer">
-            <p>Recomendamos um período mínimo de 3 a 6 meses. O trabalho estratégico exige consistência para gerar dados, otimizar campanhas e entregar resultados sólidos e escaláveis.</p>
-          </div>
-        </details>
-
-        <details class="faq-item" name="faq-accordion">
-          <summary class="faq-question">Vocês também cuidam do design e da gravação dos vídeos?</summary>
-          <div class="faq-answer">
-            <p>Sim! Temos uma estrutura completa com captação, edição de vídeo, fotografia e design gráfico para garantir que a execução seja tão boa quanto a estratégia.</p>
-          </div>
-        </details>
-
-        <details class="faq-item" name="faq-accordion">
-          <summary class="faq-question">Preciso gravar vídeos para ter resultado?</summary>
-          <div class="faq-answer">
-            <p>Os vídeos humanizam e conectam mais rápido, mas não são a única forma de crescer. Adaptamos a estratégia à sua realidade e formato ideal, sem forçar você a fazer dancinhas se isso não alinhar com sua marca.</p>
-          </div>
-        </details>
-
-        <details class="faq-item" name="faq-accordion">
-          <summary class="faq-question">Quando começarei a ver os resultados?</summary>
-          <div class="faq-answer">
-            <p>Mudanças na percepção de marca e engajamento podem ser vistas já no primeiro mês. Resultados em conversão de vendas costumam ser consistentes a partir do terceiro mês de aplicação da estratégia.</p>
-          </div>
-        </details>
-      </div>
-    </div>
-  </section>
-
-  <!-- CONTATO -->
-  <section class="section contact" id="contato">
-    <div class="container contact-inner">
-      <div class="contact-head">
-        <span class="section-index">05</span>
-        <h2 class="section-title">Vamos construir sua estratégia?</h2>
-        <p class="section-desc">Conte o que você precisa. Respondo pessoalmente.</p>
-      </div>
-
-      <form class="contact-form" id="contactForm" novalidate>
+    <form class="form" data-contact-form novalidate>
+      <div class="form-row">
         <div class="field">
-          <label for="nome">Nome</label>
-          <input type="text" id="nome" name="nome" placeholder="Seu nome" required />
+          <label for="nome">Seu nome</label>
+          <input id="nome" name="nome" type="text" autocomplete="name" placeholder="Como posso te chamar?" required data-error="Escreva seu nome.">
+          <span class="field-error" aria-live="polite"></span>
         </div>
         <div class="field">
-          <label for="email">E-mail</label>
-          <input type="email" id="email" name="email" placeholder="voce@email.com" required />
+          <label for="servico">O que você precisa</label>
+          <select id="servico" name="servico">
+            <option value="">Ainda não sei</option>
+            <optgroup label="Sites"><option value="Landing page">Landing page</option><option value="Site institucional">Site institucional</option><option value="Página de vendas">Página de vendas</option><option value="Redesign de site">Redesign de site</option></optgroup>
+            <optgroup label="Outros serviços"><option value="Social Mídia Estratégico">Social Mídia Estratégico</option><option value="Copywriting">Copywriting</option><option value="Design Gráfico">Design Gráfico</option><option value="Edição de Vídeo">Edição de Vídeo</option><option value="Filmmaker e Fotografia">Filmmaker e Fotografia</option></optgroup>
+          </select>
         </div>
-        <div class="field field-full">
-          <label for="mensagem">Mensagem</label>
-          <textarea id="mensagem" name="mensagem" rows="4" placeholder="Sobre o que você quer falar?" required></textarea>
-        </div>
-        <button type="submit" class="btn btn-primary field-full">Enviar mensagem</button>
-        <p class="form-feedback" id="formFeedback" role="status" aria-live="polite"></p>
-      </form>
-    </div>
-  </section>
-
-  <!-- RODAPÉ -->
-  <footer class="site-footer">
-    <div class="container footer-inner">
-      <div class="footer-brand">
-        <!-- 
-          Para usar sua própria logo no rodapé:
-          1. Descomente a tag <img> abaixo e coloque o link da imagem no 'src'
-          2. Apague ou comente as tags <span> com o texto "Mayki Hashimoto"
-        -->
-        <img src="../assent/2.png" alt="Logo" class="logo-img logo-for-dark">
-        <img src="../assent/1.png" alt="Logo" class="logo-img logo-for-light">
-        <!-- <span class="logo-mark">M</span> -->
-        <span class="logo-text">Mayki<span class="logo-accent">Hashimoto</span></span>
-        <p>Social Mídia Estratégico &amp; produção de conteúdo.</p>
       </div>
-      <nav class="footer-social" aria-label="Redes sociais">
-        <a href="#" aria-label="Instagram">Instagram</a>
-        <a href="#" aria-label="LinkedIn">LinkedIn</a>
-        <!-- <a href="#" aria-label="YouTube">YouTube</a> -->
-        <a href="https://wa.me/65996920735" target="_blank" rel="noopener" aria-label="WhatsApp">WhatsApp</a>
-      </nav>
-      <p class="footer-copy">© <span id="year"></span> Mayki Hashimoto. Todos os direitos reservados.</p>
+      <div class="field">
+        <label for="mensagem">Sobre o seu negócio</label>
+        <textarea id="mensagem" name="mensagem" placeholder="O que a sua empresa faz e o que você espera do site?" required data-error="Conte um pouco sobre o seu projeto."></textarea>
+        <span class="field-error" aria-live="polite"></span>
+      </div>
+      <button class="btn btn--primary" type="submit"><svg class="ico-wa" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg> Enviar pelo WhatsApp</button>
+      <p class="form-note">Sua mensagem abre no WhatsApp, pronta para enviar.</p>
+    </form>
+  </div>
+</section>
+
+</main>
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a class="footer-logo" href="index.html" aria-label="Mayki Hashimoto, página inicial"><img src="assets/img/logo-mh-gestor.png" alt="MH Gestor, Mayki Hashimoto" width="440" height="371" loading="lazy" decoding="async"></a>
+      <p>Criação de sites profissionais, landing pages e páginas de vendas, com copy, design, foto e vídeo sob a mesma direção.</p>
     </div>
-  </footer>
-
-  <!-- WHATSAPP FLUTUANTE -->
-  <a href="https://wa.me/5565996920735?text=Ol%C3%A1%20Mayki!" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
-    <span class="whatsapp-pulse" aria-hidden="true"></span>
-    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16" aria-hidden="true">
-      <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
-    </svg>
-  </a>
-
-  <script src="script.js"></script>
+    <nav aria-label="Serviços">
+      <h2 class="footer-title">Serviços</h2>
+      <ul class="footer-links">
+        <li><a href="criacao-de-sites.html">Criação de Sites</a></li>
+        <li><a href="social-media.html">Social Mídia Estratégico</a></li>
+        <li><a href="copywriting.html">Copywriting</a></li>
+        <li><a href="design-grafico.html">Design Gráfico</a></li>
+        <li><a href="edicao-de-video.html">Edição de Vídeo</a></li>
+        <li><a href="filmmaker-fotografia.html">Filmmaker e Fotografia</a></li>
+      </ul>
+    </nav>
+    <div>
+      <h2 class="footer-title">Contato</h2>
+      <ul class="footer-links">
+        <li><a href="https://wa.me/5565996920735?text=Ol%C3%A1%2C%20Mayki%21" target="_blank" rel="noopener">WhatsApp (65) 99692-0735</a></li>
+        <li><a href="https://www.instagram.com/" data-instagram target="_blank" rel="noopener">Instagram</a></li>
+        <li><a href="#contato">Enviar mensagem</a></li>
+        <li>Mato Grosso, atendimento em todo o Brasil</li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <p>© <span data-year>2026</span> Mayki Hashimoto. Todos os direitos reservados.</p>
+    <a href="#conteudo">Voltar ao topo</a>
+  </div>
+</footer>
+<a class="wa-float" href="https://wa.me/5565996920735?text=Ol%C3%A1%2C%20Mayki%21%20Vim%20pelo%20site." target="_blank" rel="noopener" aria-label="Conversar no WhatsApp"><svg class="ico-wa" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg></a>
+<script src="js/main.js" defer></script>
 </body>
 </html>
